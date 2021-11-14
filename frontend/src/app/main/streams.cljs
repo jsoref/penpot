@@ -115,7 +115,7 @@
                        (rx/map #(= :down (:type %))))
                   ;; Fix a situation caused by using `ctrl+alt` kind of shortcuts,
                   ;; that makes keyboard-alt stream registring the key pressed but
-                  ;; on bluring the window (unfocus) the key down is never arrived.
+                  ;; on blurring the window (unfocus) the key down is never arrived.
                   (->> window-blur
                        (rx/map (constantly false))))
                  (rx/dedupe))]
@@ -131,7 +131,7 @@
                        (rx/map #(= :down (:type %))))
                   ;; Fix a situation caused by using `ctrl+alt` kind of shortcuts,
                   ;; that makes keyboard-alt stream registring the key pressed but
-                  ;; on bluring the window (unfocus) the key down is never arrived.
+                  ;; on blurring the window (unfocus) the key down is never arrived.
                   (->> window-blur
                        (rx/map (constantly false))))
                  (rx/dedupe))]
