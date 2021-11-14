@@ -15,7 +15,7 @@
 
 (defn remove-line-curves
   "Remove all curves that have both handlers in the same position that the
-  beggining and end points. This makes them really line-to commands"
+  beginning and end points. This makes them really line-to commands"
   [content]
   (let [with-prev (d/enumerate (d/with-prev content))
         process-command
