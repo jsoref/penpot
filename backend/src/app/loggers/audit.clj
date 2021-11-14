@@ -195,7 +195,7 @@
 ;; Archive Task
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-;; This is a task responsible to send the accomulated events to an
+;; This is a task responsible to send the accumulated events to an
 ;; external service for archival.
 
 (declare archive-events)
