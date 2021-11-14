@@ -47,7 +47,7 @@
        (fn []
          (.removeEventListener js/document "fullscreenchange" change))))
 
-    [:div.fulllscreen-wrapper {:ref container :class (dom/classnames :fullscreen @state)}
+    [:div.fullscreen-wrapper {:ref container :class (dom/classnames :fullscreen @state)}
      [:& (mf/provider fullscreen-context) {:value manager}
       children]]))
 
