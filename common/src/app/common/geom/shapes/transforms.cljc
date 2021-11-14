@@ -299,7 +299,7 @@
                        (gpr/rect->points)
                        (gco/transform-points shape-center (:transform group (gmt/matrix))))
 
-        ;; Calculte the new selrect
+        ;; Calculate the new selrect
         new-selrect (gpr/points->selrect base-points)]
 
     ;; Updates the shape and the applytransform-rect will update the other properties
