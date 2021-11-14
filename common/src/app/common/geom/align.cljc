@@ -116,7 +116,7 @@
         (mapcat #(recursive-move %1 {coord %2 other-coord 0} objects)
                 sorted-shapes deltas)))))
 
-;; Adjusto to viewport
+;; Adjust to viewport
 
 (defn adjust-to-viewport
   ([viewport srect] (adjust-to-viewport viewport srect nil))
