@@ -322,7 +322,7 @@ function ImageTracer(){
 						
 					}// End of palette loop
 					
-					// add to palettacc
+					// add to paletteacc
 					paletteacc[ci].r += imgd.data[idx  ];
 					paletteacc[ci].g += imgd.data[idx+1];
 					paletteacc[ci].b += imgd.data[idx+2];
