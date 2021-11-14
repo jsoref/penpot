@@ -174,7 +174,7 @@
           ;; We retrieve all team members instead of query the
           ;; database for a single member. This is just for
           ;; convenience, if this becomes a bottleneck or problematic,
-          ;; we will change it to more efficient fetch mechanims.
+          ;; we will change it to more efficient fetch mechanisms.
           members (teams/retrieve-team-members conn team-id)
           member  (d/seek #(= member-id (:id %)) members)
 
