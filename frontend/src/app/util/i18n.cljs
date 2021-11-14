@@ -58,7 +58,7 @@
 (defonce locale (l/atom (or (get @storage ::locale)
                             (autodetect))))
 
-;; The traslations `data` is a javascript object and should be treated
+;; The translations `data` is a javascript object and should be treated
 ;; with `goog.object` namespace functions instead of a standart
 ;; clojure functions. This is for performance reasons because this
 ;; code is executed in the critical part (application bootstrap) and
