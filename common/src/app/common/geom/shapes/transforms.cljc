@@ -71,7 +71,7 @@
     :else scale))
 
 (defn- calculate-skew-angle
-  "Calculates the skew angle of the paralelogram given by the points"
+  "Calculates the skew angle of the parallelogram given by the points"
   [[p1 _ p3 p4]]
   (let [v1 (gpt/to-vec p3 p4)
         v2 (gpt/to-vec p4 p1)]
@@ -83,13 +83,13 @@
       (- 90 (gpt/angle-with-other v1 v2)))))
 
 (defn- calculate-height
-  "Calculates the height of a paralelogram given by the points"
+  "Calculates the height of a parallelogram given by the points"
   [[p1 _ _ p4]]
   (-> (gpt/to-vec p4 p1)
       (gpt/length)))
 
 (defn- calculate-width
-  "Calculates the width of a paralelogram given by the points"
+  "Calculates the width of a parallelogram given by the points"
   [[p1 p2 _ _]]
   (-> (gpt/to-vec p1 p2)
       (gpt/length)))
