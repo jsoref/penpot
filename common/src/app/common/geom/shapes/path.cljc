@@ -22,7 +22,7 @@
   (mth/almost-zero? (- a b)))
 
 (defn calculate-opposite-handler
-  "Given a point and its handler, gives the symetric handler"
+  "Given a point and its handler, gives the symmetric handler"
   [point handler]
   (let [handler-vector (gpt/to-vec point handler)]
     (gpt/add point (gpt/negate handler-vector))))
