@@ -434,7 +434,7 @@
 
 (defn with-next
   "Given a collection will return a new collection where each element
-  is paried with the next item in the collection
+  is paired with the next item in the collection
   (with-next (range 5)) => [[0 1] [1 2] [2 3] [3 4] [4 nil]"
   [coll]
   (map vector
@@ -443,7 +443,7 @@
 
 (defn with-prev
   "Given a collection will return a new collection where each element
-  is paried with the previous item in the collection
+  is paired with the previous item in the collection
   (with-prev (range 5)) => [[0 nil] [1 0] [2 1] [3 2] [4 3]"
   [coll]
   (map vector
