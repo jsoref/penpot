@@ -486,7 +486,7 @@
               ;; Media objects are blob of data to be upload
               (process-blobs params))
 
-            ;; Every stream has its own sideffect. We need to ignore the result
+            ;; Every stream has its own sideeffect. We need to ignore the result
             (rx/ignore)
             (handle-upload-error on-error)
             (rx/finalize (st/emitf (dm/hide-tag :media-loading))))))))
