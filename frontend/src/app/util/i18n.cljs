@@ -102,7 +102,7 @@
 ;; A main public api for translate strings.
 
 ;; A marker type that is used just for mark
-;; a parameter that reprsentes the counter.
+;; a parameter that represented the counter.
 
 (defn c
   [x]
