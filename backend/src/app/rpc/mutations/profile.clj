@@ -433,7 +433,7 @@
 ;; --- MUTATION: Request Email Change
 
 (declare request-email-change)
-(declare change-email-inmediatelly)
+(declare change-email-immediately)
 
 (s/def ::request-email-change
   (s/keys :req-un [::email]))
@@ -449,9 +449,9 @@
       (if (or (cf/get :smtp-enabled)
               (contains? cf/flags :smtp))
         (request-email-change cfg params)
-        (change-email-inmediatelly cfg params)))))
+        (change-email-immediately cfg params)))))
 
-(defn- change-email-inmediatelly
+(defn- change-email-immediately
   [{:keys [conn]} {:keys [profile email] :as params}]
   (when (not= email (:email profile))
     (check-profile-existence! conn params))

@@ -174,7 +174,7 @@
                             :type :image
                             :metadata {:id (:id fmo1)}}}]})]
 
-      ;; run the task inmediatelly
+      ;; run the task immediately
       (let [task  (:app.tasks.file-media-gc/handler th/*system*)
             res   (task {})]
         (t/is (= 0 (:processed res))))

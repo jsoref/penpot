@@ -408,7 +408,7 @@
 ;; For this situations we need to write a "log" of inserted files that
 ;; are checked in some time in future. If physical file exists but the
 ;; database refence does not exists means that leaked file is found
-;; and is inmediatelly deleted. The responsability of this task is
+;; and is immediately deleted. The responsability of this task is
 ;; check that write log for possible leaked files.
 
 (def recheck-min-age (dt/duration {:hours 1}))
