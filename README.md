@@ -81,7 +81,7 @@ You can ask and answer questions, have open-ended conversations, and follow alon
 You can ask and answer questions, have open-ended conversations, and follow along on decisions affecting the project.
 Would you like to know more about Penpot? We recommend you to visit our youtube channel and learn more about the functionalities and possibilities of Penpot with our video tutorials.
 
-🎞️ [Youtube channel](https://www.youtube.com/channel/UCAqS8G72uv9P5HG1IfgnQ9g)
+🎞️ [YouTube channel](https://www.youtube.com/channel/UCAqS8G72uv9P5HG1IfgnQ9g)
 
 ## License ##
 
