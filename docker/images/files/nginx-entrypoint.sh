@@ -33,7 +33,7 @@ update_github_client_id() {
   if [ -n "$PENPOT_GITHUB_CLIENT_ID" ]; then
     log "Updating GitHub Client Id: $PENPOT_GITHUB_CLIENT_ID"
     sed -i \
-      -e "s|^//var penpotGithubClientID = \".*\";|var penpotGithubClientID = \"$PENPOT_GITHUB_CLIENT_ID\";|g" \
+      -e "s|^//var penpotGitHubClientID = \".*\";|var penpotGitHubClientID = \"$PENPOT_GITHUB_CLIENT_ID\";|g" \
       "$1"
   fi
 }
