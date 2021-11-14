@@ -134,7 +134,7 @@
   (s/keys :req-un [::profile-id ::id]))
 
 ;; TODO: right now just don't allow delete default team, in future it
-;; should raise a speific exception for signal that this acction is
+;; should raise a speific exception for signal that this action is
 ;; not allowed.
 
 (sv/defmethod ::delete-team
