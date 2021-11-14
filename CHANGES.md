@@ -55,7 +55,7 @@
 ### :boom: Breaking changes
 
 - Some stroke-caps can change behaviour.
-- Text display bug fix could potentialy make some texts jump a line.
+- Text display bug fix could potentially make some texts jump a line.
 
 ### :sparkles: New features
 
