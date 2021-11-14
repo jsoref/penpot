@@ -181,7 +181,7 @@
                   (reify RedisPubSubListener
                     (message [it pattern topic message])
                     (message [it topic message]
-                      ;; There are no back pressure, so we use a slidding
+                      ;; There are no back pressure, so we use a sliding
                       ;; buffer for cases when the pubsub broker sends
                       ;; more messages that we can process.
                       (let [val {:topic topic :message (blob/decode message)}]
