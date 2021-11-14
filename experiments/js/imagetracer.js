@@ -240,7 +240,7 @@ function ImageTracer(){
 	////////////////////////////////////////////////////////////
 	
 	// 1. Color quantization
-	// Using a form of k-means clustering repeatead options.colorquantcycles times. http://en.wikipedia.org/wiki/Color_quantization
+	// Using a form of k-means clustering repeated options.colorquantcycles times. http://en.wikipedia.org/wiki/Color_quantization
 	this.colorquantization = function( imgd, options ){
 		var arr = [], idx=0, cd,cdl,ci, paletteacc = [], pixelnum = imgd.width * imgd.height, i, j, k, cnt, palette;
 		
