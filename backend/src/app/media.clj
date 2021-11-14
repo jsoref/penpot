@@ -213,7 +213,7 @@
 ;; --- Fonts Generation
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(def all-fotmats #{"font/woff2", "font/woff", "font/otf", "font/ttf"})
+(def all-formats #{"font/woff2", "font/woff", "font/otf", "font/ttf"})
 
 (defmethod process :generate-fonts
   [{:keys [input] :as params}]
