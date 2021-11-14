@@ -414,7 +414,7 @@
             reducer-fn (partial add-svg-child-changes page-id objects selected frame-id shape-id svg-data)]
         (reduce reducer-fn [unames changes] (d/enumerate children)))
 
-      ;; Cannot create the data from curren tags
+      ;; Cannot create the data from current tags
       [unames [rchs uchs]])))
 
 (declare create-svg-shapes)
