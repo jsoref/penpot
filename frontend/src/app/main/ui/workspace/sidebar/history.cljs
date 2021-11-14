@@ -144,7 +144,7 @@
     maybe-keyword))
 
 (defn select-entry
-  "Selects the entry the user will see inside a list of posible entries.
+  "Selects the entry the user will see inside a list of possible entries.
   Sometimes the result will be a combination."
   [candidates]
   (let [;; Group by id and type

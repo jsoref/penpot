@@ -294,7 +294,7 @@
       ;; move all files to the project
       (db/exec-one! conn [sql:move-files project-id fids])
 
-      ;; delete posible broken relations on moved files
+      ;; delete possible broken relations on moved files
       (db/exec-one! conn [sql:delete-broken-relations pids])
 
       nil)))
@@ -329,7 +329,7 @@
                   {:team-id team-id}
                   {:id project-id})
 
-      ;; delete posible broken relations on moved files
+      ;; delete possible broken relations on moved files
       (db/exec-one! conn [sql:delete-broken-relations pids])
 
       nil)))

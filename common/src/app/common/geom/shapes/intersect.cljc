@@ -147,7 +147,7 @@
       (not= wn 0))))
 
 ;; A intersects with B
-;; Three posible cases:
+;; Three possible cases:
 ;;   1) A is inside of B
 ;;   2) B is inside of A
 ;;   3) A intersects B
