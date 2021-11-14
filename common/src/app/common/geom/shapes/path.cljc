@@ -681,7 +681,7 @@
 (defn ray-line-intersect
   [point [a b :as line]]
 
-  ;; If the ray is paralell to the line there will be no crossings
+  ;; If the ray is parallel to the line there will be no crossings
   (let [ray-line [point (gpt/point (inc (:x point)) (:y point))]
         ;; Rays fail when fall just in a vertex so we move a bit upward
         ;; because only want to use this for insideness
