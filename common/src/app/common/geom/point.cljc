@@ -194,7 +194,7 @@
            (mth/precision y decimals))))
 
 (defn transform
-  "Transform a point applying a matrix transfomation."
+  "Transform a point applying a matrix transformation."
   [{:keys [x y] :as p} {:keys [a b c d e f]}]
   (assert (point? p))
   (Point. (+ (* x a) (* y c) e)
