@@ -284,7 +284,7 @@
         (intersects-lines-ellipse? rect-lines ellipse-data))))
 
 (defn overlaps?
-  "General case to check for overlaping between shapes and a rectangle"
+  "General case to check for overlapping between shapes and a rectangle"
   [shape rect]
   (let [stroke-width (/ (or (:stroke-width shape) 0) 2)
         rect (-> rect
