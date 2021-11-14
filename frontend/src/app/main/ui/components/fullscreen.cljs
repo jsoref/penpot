@@ -37,7 +37,7 @@
                   (wapi/exit-fullscreen)))))))]
 
     ;; NOTE: the user interaction with F11 keyboard hot-key does not
-    ;; emits the `fullscreenchange` event; that event is emmited only
+    ;; emits the `fullscreenchange` event; that event is emitted only
     ;; when API is used. There are no way to detect the F11 behavior
     ;; in a uniform cross browser way.
 
