@@ -327,7 +327,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; This task is part of the garbage collection of storage objects and
-;; is responsible on analizing the touched objects and mark them for deletion
+;; is responsible on analyzing the touched objects and mark them for deletion
 ;; if corresponds.
 ;;
 ;; When file_media_object is deleted, the depending storage_object are
