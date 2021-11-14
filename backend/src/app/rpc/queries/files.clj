@@ -85,7 +85,7 @@
          ldata  (retrieve-share-link conn file-id share-id)]
 
      ;; NOTE: in a future when share-link becomes more powerfull and
-     ;; will allow us specify which parts of the app is availabel, we
+     ;; will allow us specify which parts of the app is available, we
      ;; will probably need to tweak this function in order to expose
      ;; this flags to the frontend.
      (cond
