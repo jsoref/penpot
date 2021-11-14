@@ -566,7 +566,7 @@
   (ptk/event ::update-frame-thumbnail {:frame-id frame-id}))
 
 (defn- extract-frame-changes
-  "Process a changes set in a commit to extract the frames that are channging"
+  "Process a changes set in a commit to extract the frames that are changing"
   [[event [old-objects new-objects]]]
   (let [changes (-> event deref :changes)
 
