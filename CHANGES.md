@@ -330,7 +330,7 @@
 - Fix problem when creating a component with empty data.
 - Fix problem with moving shapes into frames.
 - Fix problems with mov-objects.
-- Fix unexpected excetion related to rounding integers.
+- Fix unexpected exception related to rounding integers.
 - Fix wrong type usage on libraries changes.
 - Improve editor lifecycle management.
 - Make the navigation async by default.
