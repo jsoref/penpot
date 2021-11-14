@@ -107,7 +107,7 @@
                 :code :email-domain-is-not-allowed)))
 
   ;; Don't allow proceed in preparing registration if the profile is
-  ;; already reported as spamer.
+  ;; already reported as spammer.
   (when (eml/has-bounce-reports? pool (:email params))
     (ex/raise :type :validation
               :code :email-has-permanent-bounces
