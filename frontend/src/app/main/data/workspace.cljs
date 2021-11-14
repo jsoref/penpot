@@ -1673,7 +1673,7 @@
 
                   page-id   (:current-page-id state)
                   unames    (-> (wsh/lookup-page-objects state page-id)
-                                (dwc/retrieve-used-names)) ;; TODO: move this calculation inside prepare-duplcate-changes?
+                                (dwc/retrieve-used-names)) ;; TODO: move this calculation inside prepare-duplicate-changes?
 
                   rchanges  (->> (dws/prepare-duplicate-changes all-objects page-id unames selected delta)
                                  (mapv (partial process-rchange media-idx))
