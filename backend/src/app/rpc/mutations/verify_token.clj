@@ -134,7 +134,7 @@
 
         ;; If the session does not matches the invited member, replace
         ;; the session with a new one matching the invited member.
-        ;; This techinique should be considered secure because the
+        ;; This technique should be considered secure because the
         ;; user clicking the link he already has access to the email
         ;; account.
         (with-meta
