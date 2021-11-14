@@ -187,11 +187,11 @@
 (defn round
   "Change the precision of the point coordinates."
   ([point] (round point 0))
-  ([{:keys [x y] :as p} decimanls]
+  ([{:keys [x y] :as p} decimals]
    (assert (point? p))
-   (assert (number? decimanls))
-   (Point. (mth/precision x decimanls)
-           (mth/precision y decimanls))))
+   (assert (number? decimals))
+   (Point. (mth/precision x decimals)
+           (mth/precision y decimals))))
 
 (defn transform
   "Transform a point applying a matrix transfomation."
