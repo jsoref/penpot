@@ -10,7 +10,7 @@
 
 (defn create-random-tree [num-nodes])
 
-(t/deftest test-insert-and-retrive-data
+(t/deftest test-insert-and-retrieve-data
   (t/testing "Retrieve on empty tree"
       (let [tree (rt/make-tree)]
         (t/is (= (rt/get tree 100) nil))))
