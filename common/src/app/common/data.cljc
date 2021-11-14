@@ -433,7 +433,7 @@
          (str maybe-keyword)))))
 
 (defn with-next
-  "Given a collectin will return a new collection where each element
+  "Given a collection will return a new collection where each element
   is paried with the next item in the collection
   (with-next (range 5)) => [[0 1] [1 2] [2 3] [3 4] [4 nil]"
   [coll]
@@ -442,7 +442,7 @@
        (concat [] (rest coll) [nil])))
 
 (defn with-prev
-  "Given a collectin will return a new collection where each element
+  "Given a collection will return a new collection where each element
   is paried with the previous item in the collection
   (with-prev (range 5)) => [[0 nil] [1 0] [2 1] [3 2] [4 3]"
   [coll]
