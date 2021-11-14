@@ -188,7 +188,7 @@
     object))
 
 (defn clone-object
-  "Creates a clone of the provided object using backend basded efficient
+  "Creates a clone of the provided object using backend based efficient
   method. Always clones objects to the configured default."
   [{:keys [pool conn] :as storage} object]
   (us/assert ::storage storage)
