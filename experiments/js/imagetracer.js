@@ -620,7 +620,7 @@ function ImageTracer(){
 		return bpaths;
 	},
 	
-	// 4. interpollating between path points for nodes with 8 directions ( East, SouthEast, S, SW, W, NW, N, NE )
+	// 4. interpolating between path points for nodes with 8 directions ( East, SouthEast, S, SW, W, NW, N, NE )
 	this.internodes = function( paths, options ){
 		var ins = [], palen=0, nextidx=0, nextidx2=0, previdx=0, previdx2=0, pacnt, pcnt;
 		
