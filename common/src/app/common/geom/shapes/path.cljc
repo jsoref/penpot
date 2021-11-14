@@ -179,7 +179,7 @@
        (and (mth/almost-zero? d) (mth/almost-zero? a))
        [(/ (- c) b)]
 
-       ;; Cuadratic
+       ;; Quadratic
        (mth/almost-zero? d)
        [(/ (+ (- b) sqrt-b2-4ac)
            (* 2 a))

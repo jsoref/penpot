@@ -211,7 +211,7 @@
   [[{x1 :x y1 :y} {x2 :x y2 :y}] {:keys [cx cy rx ry]}]
 
   ;; Given the ellipse inequality after inserting the line parametric equations
-  ;; we resolve t and gives us a cuadratic formula
+  ;; we resolve t and gives us a quadratic formula
   ;; The result of this quadratic will give us a value of T that needs to be
   ;; between 0-1 to be in the segment
 
