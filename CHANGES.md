@@ -325,7 +325,7 @@
 ### :bug: Bugs fixed
 
 - Add safety check on reg-objects change impl.
-- Fix custom fonts embbedding issue.
+- Fix custom fonts embedding issue.
 - Fix dashboard ordering issue.
 - Fix problem when creating a component with empty data.
 - Fix problem with moving shapes into frames.
