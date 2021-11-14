@@ -72,7 +72,7 @@ You can ask and answer questions, have open-ended conversations, and follow alon
 
 💬 [Github discussions](https://github.com/penpot/penpot/discussions)
 
-🐞 [Github issues](mailto:info@penpot.apphttps://github.com/penpot/penpot/issues)
+🐞 [Github issues](https://github.com/penpot/penpot/issues)
 
 ✍️️ [Gitter](https://gitter.im/penpot/community)
 
