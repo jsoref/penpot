@@ -207,7 +207,7 @@
     (<= v 1)))
 
 (defn intersects-line-ellipse?
-  "Checks wether a single line intersects with the given ellipse"
+  "Checks whether a single line intersects with the given ellipse"
   [[{x1 :x y1 :y} {x2 :x y2 :y}] {:keys [cx cy rx ry]}]
 
   ;; Given the ellipse inequality after inserting the line parametric equations
