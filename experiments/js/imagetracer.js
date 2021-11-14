@@ -300,7 +300,7 @@ function ImageTracer(){
 				}// End of palette loop
 			}// End of Average colors from the second iteration
 			
-			// Reseting palette accumulator for averaging
+			// Resetting palette accumulator for averaging
 			for( i=0; i < palette.length; i++ ){ paletteacc[i] = { r:0, g:0, b:0, a:0, n:0 }; }
 			
 			// loop through all pixels
