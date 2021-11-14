@@ -179,7 +179,7 @@
             res   (task {})]
         (t/is (= 0 (:processed res))))
 
-      ;; make the file ellegible for GC waiting 300ms (configured
+      ;; make the file eligible for GC waiting 300ms (configured
       ;; timeout for testing)
       (th/sleep 300)
 

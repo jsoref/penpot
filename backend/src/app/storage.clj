@@ -333,7 +333,7 @@
 ;; When file_media_object is deleted, the depending storage_object are
 ;; marked as touched. This means that some files that depend on a
 ;; concrete storage_object are no longer exists and maybe this
-;; storage_object is no longer necessary and can be ellegible for
+;; storage_object is no longer necessary and can be eligible for
 ;; elimination. This task peridically analyzes touched objects and
 ;; mark them as freeze (means that has other references and the object
 ;; is still valid) or deleted (no more references to this object so is

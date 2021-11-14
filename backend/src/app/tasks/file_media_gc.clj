@@ -6,7 +6,7 @@
 
 (ns app.tasks.file-media-gc
   "A maintenance task that is responsible to purge the unused media
-  objects from files. A file is ellegible to be garbage collected
+  objects from files. A file is eligible to be garbage collected
   after some period of inactivity (the default threshold is 72h)."
   (:require
    [app.common.logging :as l]
