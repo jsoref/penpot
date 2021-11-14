@@ -25,7 +25,7 @@
 ;;
 ;; This will catch all renders and print to the console the
 ;; percentiles of render time measures. The log function is
-;; automatically debouced for avod excesive spam to the console.
+;; automatically debouced for avoid excesive spam to the console.
 
 (defn tdigest
   []
