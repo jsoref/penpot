@@ -633,7 +633,7 @@
   (let [rows (db/exec! conn [sql:owned-teams profile-id])]
     ;; If we found owned teams with more than one profile we don't
     ;; allow delete profile until the user properly transfer ownership
-    ;; or explictly removes all participants from the team.
+    ;; or explicitly removes all participants from the team.
     (when (some #(> (:num-profiles %) 1) rows)
       (ex/raise :type :validation
                 :code :owner-teams-with-people
