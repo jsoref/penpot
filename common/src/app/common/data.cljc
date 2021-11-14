@@ -178,7 +178,7 @@
   "Maps a function to each pair of values that can be combined inside the
   function without repetition.
 
-  Optional parmeters:
+  Optional parameters:
   `pred?`   A predicate that if not satisfied won't process the pair
   `target?` A collection that will be used as seed to be stored
 
