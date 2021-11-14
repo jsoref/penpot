@@ -175,7 +175,7 @@
              ::audit/profile-id (:id profile)}))
 
         ;; If auth backend is different from "penpot" means user is
-        ;; registring using third party auth mechanism; in this case
+        ;; registering using third party auth mechanism; in this case
         ;; we need to mark this session as logged.
         (not= "penpot" (:auth-backend profile))
         (with-meta (profile/strip-private-attrs profile)

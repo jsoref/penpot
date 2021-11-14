@@ -114,7 +114,7 @@
                        (rx/filter kbd/altKey?)
                        (rx/map #(= :down (:type %))))
                   ;; Fix a situation caused by using `ctrl+alt` kind of shortcuts,
-                  ;; that makes keyboard-alt stream registring the key pressed but
+                  ;; that makes keyboard-alt stream registering the key pressed but
                   ;; on blurring the window (unfocus) the key down is never arrived.
                   (->> window-blur
                        (rx/map (constantly false))))
@@ -130,7 +130,7 @@
                        (rx/filter kbd/ctrlKey?)
                        (rx/map #(= :down (:type %))))
                   ;; Fix a situation caused by using `ctrl+alt` kind of shortcuts,
-                  ;; that makes keyboard-alt stream registring the key pressed but
+                  ;; that makes keyboard-alt stream registering the key pressed but
                   ;; on blurring the window (unfocus) the key down is never arrived.
                   (->> window-blur
                        (rx/map (constantly false))))
