@@ -20,7 +20,7 @@
    [promesa.core :as p]))
 
 (defprotocol IBodyData
-  "A helper for define body data with the appropiate headers."
+  "A helper for define body data with the appropriate headers."
   (-update-headers [_ headers])
   (-get-body-data [_]))
 
