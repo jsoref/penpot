@@ -35,7 +35,7 @@ msgstr "Just wanna try it?"
 msgid "auth.demo-warning"
 msgstr ""
 "This is a DEMO service, DO NOT USE for real work, the projects will be "
-"periodicaly wiped."
+"periodically wiped."
 
 #: src/app/main/ui/auth/register.cljs, src/app/main/ui/auth/recovery_request.cljs, src/app/main/ui/auth/login.cljs
 msgid "auth.email"
