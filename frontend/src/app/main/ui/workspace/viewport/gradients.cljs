@@ -173,7 +173,7 @@
     [:g.gradient-handlers
      [:defs
       [:& gradient-line-drop-shadow-filter {:id "gradient_line_drop_shadow" :from-p from-p :to-p to-p :zoom zoom}]
-      [:& gradient-line-drop-shadow-filter {:id "gradient_widh_line_drop_shadow" :from-p from-p :to-p width-p :zoom zoom}]
+      [:& gradient-line-drop-shadow-filter {:id "gradient_width_line_drop_shadow" :from-p from-p :to-p width-p :zoom zoom}]
       [:& gradient-square-drop-shadow-filter {:id "gradient_square_from_drop_shadow" :point from-p :zoom zoom}]
       [:& gradient-square-drop-shadow-filter {:id "gradient_square_to_drop_shadow" :point to-p :zoom zoom}]
       [:& gradient-width-handler-shadow-filter {:id "gradient_width_handler_drop_shadow" :point width-p :zoom zoom}]]
@@ -187,7 +187,7 @@
               :stroke-width (/ gradient-line-stroke-width zoom)}]]
 
      (when width-p
-       [:g {:filter "url(#gradient_widh_line_drop_shadow)"}
+       [:g {:filter "url(#gradient_width_line_drop_shadow)"}
         [:line {:x1 (:x from-p)
                 :y1 (:y from-p)
                 :x2 (:x width-p)
