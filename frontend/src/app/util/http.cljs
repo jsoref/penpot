@@ -136,8 +136,8 @@
 
 (defn conditional-decode-transit
   [{:keys [body headers] :as response}]
-  (let [contentype (get headers "content-type")]
-    (if (and (str/starts-with? contentype "application/transit+json")
+  (let [contenttype (get headers "content-type")]
+    (if (and (str/starts-with? contenttype "application/transit+json")
              (pos? (count body)))
       (assoc response :body (t/decode-str body))
       response)))
