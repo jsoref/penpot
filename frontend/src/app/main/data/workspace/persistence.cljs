@@ -643,7 +643,7 @@
          (->> (rx/from no-thumb-frames)
               (rx/map #(update-frame-thumbnail %)))
 
-         ;; We remove the thumbnails inmediately but defer their generation
+         ;; We remove the thumbnails immediately but defer their generation
          (rx/merge
           (->> frame-changes
                (rx/take-until stopper)
