@@ -1450,7 +1450,7 @@ msgstr "Send invitation"
 msgid "modals.invite-member.title"
 msgstr "Invite to join the team"
 
-msgid "modals.leave-and-reassign.forbiden"
+msgid "modals.leave-and-reassign.forbidden"
 msgstr ""
 "You can not leave the team if there is no other member to promote to owner. "
 "You might want to delete the team."
