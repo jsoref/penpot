@@ -173,7 +173,7 @@
 
 (defn- process-report
   [cfg {:keys [type profile-id] :as report}]
-  (l/trace :action "procesing report" :report (pr-str report))
+  (l/trace :action "processing report" :report (pr-str report))
   (cond
     ;; In this case we receive a bounce/complaint notification without
     ;; confirmed identity, we just emit a warning but do nothing about
