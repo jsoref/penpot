@@ -62,7 +62,7 @@
                    (= :image (:type form)))
               (update-in [:metadata :id] #(get index % %))))
 
-          ;; A function responsible to analize all file data and
+          ;; A function responsible to analyze all file data and
           ;; replace the old :component-file reference with the new
           ;; ones, using the provided file-index
           (relink-shapes [data]
