@@ -227,7 +227,7 @@
                 (= frame-id uuid/zero)
                 (not (some? (get-in objects [frame-id :thumbnail]))))))
 
-        ;; We need to remove from the attribute :shapes its childrens because
+        ;; We need to remove from the attribute :shapes its children because
         ;; they will not be sent in the data
         remove-frame-children
         (fn [[id shape]]
