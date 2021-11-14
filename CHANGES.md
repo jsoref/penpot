@@ -264,7 +264,7 @@
 - Fix negative values in blur [Taiga #1815](https://tree.taiga.io/project/penpot/issue/1815)
 - Fix problem when editing color in group [Taiga #1816](https://tree.taiga.io/project/penpot/issue/1816)
 - Fix resize/rotate with mouse buttons different than left [#1060](https://github.com/penpot/penpot/issues/1060)
-- Fix header partialy visible on fullscreen viewer mode [Taiga #1875](https://tree.taiga.io/project/penpot/issue/1875)
+- Fix header partially visible on fullscreen viewer mode [Taiga #1875](https://tree.taiga.io/project/penpot/issue/1875)
 - Fix dynamic alignment enabled with hidden objects [#1063](https://github.com/penpot/penpot/issues/1063)
 
 
