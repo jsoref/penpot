@@ -179,7 +179,7 @@
          ::audit/profile-id member-id}))
 
     ;; In this case, we wait until frontend app redirect user to
-    ;; registeration page, the user is correctly registered and the
+    ;; registration page, the user is correctly registered and the
     ;; register mutation call us again with the same token to finally
     ;; create the corresponding team-profile relation from the first
     ;; condition of this if.
