@@ -93,7 +93,7 @@
           tree (reduce #(rt/remove %1 %2 :x) tree (range 0 (dec size)))]
       (t/is (rt/empty? tree)))
 
-    ;; Try a decreasing range
+    ;; Try a decreleasing range
     (let [size 10000
           tree (rt/make-tree)
           tree (reduce #(rt/insert %1 %2 :x) tree (range (dec size) -1 -1))

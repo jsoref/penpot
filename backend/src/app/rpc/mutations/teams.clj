@@ -114,7 +114,7 @@
       (when (some :is-owner perms)
         (ex/raise :type :validation
                   :code :owner-cant-leave-team
-                  :hint "reasing owner before leave"))
+                  :hint "releasing owner before leave"))
 
       (when-not (> (count members) 1)
         (ex/raise :type :validation
