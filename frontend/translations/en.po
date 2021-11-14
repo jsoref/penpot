@@ -1988,7 +1988,7 @@ msgstr "Disable snap to grid"
 
 #: src/app/main/ui/workspace/header.cljs
 msgid "workspace.header.menu.enable-dynamic-alignment"
-msgstr "Enable dynamic aligment"
+msgstr "Enable dynamic alignment"
 
 #: src/app/main/ui/workspace/header.cljs
 msgid "workspace.header.menu.enable-scale-text"
