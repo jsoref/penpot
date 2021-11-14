@@ -201,7 +201,7 @@
 (s/def ::shapes-changes-persisted
   (s/keys :req-un [::revn ::cp/changes]))
 
-(defn shapes-persited-event? [event]
+(defn shapes-persisted-event? [event]
   (= (ptk/type event) ::changes-persisted))
 
 (defn shapes-changes-persisted

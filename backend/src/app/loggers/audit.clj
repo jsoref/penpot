@@ -159,7 +159,7 @@
         (when-let [[_type events] (a/<! buffer)]
           (let [res (a/<! (persist-events cfg events))]
             (when (ex/exception? res)
-              (l/error :hint "error on persiting events"
+              (l/error :hint "error on persisting events"
                        :cause res)))
           (recur)))
 
