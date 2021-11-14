@@ -78,7 +78,7 @@
         (reply-error err)))))
 
 (defn- drop-message
-  "Sends to the client a notifiction that its messages have been dropped"
+  "Sends to the client a notification that its messages have been dropped"
   [{:keys [sender-id] :as message}]
   (us/assert ::message message)
   (.postMessage js/self (t/encode-str {:reply-to sender-id
