@@ -426,7 +426,7 @@
          (mapv replace-command))))
 
 (defn merge-nodes
-  "Reduces the continguous segments in points to a single point"
+  "Reduces the contiguous segments in points to a single point"
   [content points]
   (let [point->merge-point (-> content
                                (get-segments points)
