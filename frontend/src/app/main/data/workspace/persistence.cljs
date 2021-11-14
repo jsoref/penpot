@@ -39,7 +39,7 @@
    [tubax.core :as tubax]))
 
 (declare persist-changes)
-(declare persist-sychronous-changes)
+(declare persist-synchronous-changes)
 (declare shapes-changes-persisted)
 (declare update-persistence-status)
 
@@ -99,7 +99,7 @@
                     (rx/map deref)
                     (rx/filter library-file?)
                     (rx/filter (complement #(empty? (:changes %))))
-                    (rx/map persist-sychronous-changes)
+                    (rx/map persist-synchronous-changes)
                     (rx/take-until (rx/delay 100 stoper)))
                (->> stream
                     (rx/filter (ptk/type? ::changes-persisted))
@@ -167,7 +167,7 @@
                (rx/mapcat handle-response)
                (rx/catch on-error)))))))
 
-(defn persist-sychronous-changes
+(defn persist-synchronous-changes
   [{:keys [file-id changes]}]
   (us/verify ::us/uuid file-id)
   (ptk/reify ::persist-synchronous-changes
