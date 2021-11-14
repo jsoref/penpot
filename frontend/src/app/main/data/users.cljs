@@ -351,7 +351,7 @@
 (defn mark-onboarding-as-viewed
   ([] (mark-onboarding-as-viewed nil))
   ([{:keys [version]}]
-   (ptk/reify ::mark-oboarding-as-viewed
+   (ptk/reify ::mark-onboarding-as-viewed
      ptk/WatchEvent
      (watch [_ state _]
        (let [version (or version (:main @cf/version))
