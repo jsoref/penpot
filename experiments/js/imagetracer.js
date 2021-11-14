@@ -144,7 +144,7 @@ function ImageTracer(){
 			// 3. Batch pathscan
 			var bps = _this.batchpathscan( ls, options.pathomit );
 			
-			// 4. Batch interpollation
+			// 4. Batch interpolation
 			var bis = _this.batchinternodes( bps, options );
 			
 			// 5. Batch tracing and creating tracedata object
@@ -718,7 +718,7 @@ function ImageTracer(){
 		return val;
 	},// End of getdirection()
 	
-	// 4. Batch interpollation
+	// 4. Batch interpolation
 	this.batchinternodes = function( bpaths, options ){
 		var binternodes = [];
 		for (var k in bpaths) {
