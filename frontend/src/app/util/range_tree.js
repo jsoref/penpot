@@ -151,7 +151,7 @@ goog.scope(function() {
         }
     }
 
-    // Remove the lefmost node of the current branch
+    // Remove the leftmost node of the current branch
     function recRemoveMin(branch) {
         if (!branch.left) {
             return null;
