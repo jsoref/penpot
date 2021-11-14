@@ -234,7 +234,7 @@
   (let [form        (fm/use-form :spec ::leave-modal-form :initial {})
         members     (some->> members (filterv #(not= (:id %) (:id profile))))
         options     (into [{:value ""
-                            :label (tr "modals.leave-and-reassign.select-memeber-to-promote")}]
+                            :label (tr "modals.leave-and-reassign.select-member-to-promote")}]
                           (map #(hash-map :label (:name %) :value (str (:id %))) members))
 
         on-cancel   (st/emitf (modal/hide))
@@ -255,7 +255,7 @@
        [:p (tr "modals.leave-and-reassign.hint1" (:name team))]
 
        (if (empty? members)
-         [:p (tr "modals.leave-and-reassign.forbiden")]
+         [:p (tr "modals.leave-and-reassign.forbidden")]
          [:*
           [:p (tr "modals.leave-and-reassign.hint2")]
           [:& fm/form {:form form}

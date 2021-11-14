@@ -72,7 +72,7 @@
 
 (def google-client-id     (obj/get global "penpotGoogleClientID" nil))
 (def gitlab-client-id     (obj/get global "penpotGitlabClientID" nil))
-(def github-client-id     (obj/get global "penpotGithubClientID" nil))
+(def github-client-id     (obj/get global "penpotGitHubClientID" nil))
 (def oidc-client-id       (obj/get global "penpotOIDCClientID" nil))
 (def worker-uri           (obj/get global "penpotWorkerURI" "/js/worker.js"))
 (def translations         (obj/get global "penpotTranslations"))
@@ -85,7 +85,7 @@
 (def browser              (atom (parse-browser)))
 (def platform             (atom (parse-platform)))
 
-;; mantain for backward compatibility
+;; maintain for backward compatibility
 (let [login-with-ldap (obj/get global "penpotLoginWithLDAP" false)
       registration    (obj/get global "penpotRegistrationEnabled" true)]
   (when login-with-ldap
