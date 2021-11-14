@@ -44,7 +44,7 @@
     (.insertAdjacentHTML head "beforeend"
                          (str "<style>"
                               "  @page {" style-str "}"
-                              "  html, body {"            ; Fix issue having Chromium to add random 1px marging at the bottom
+                              "  html, body {"            ; Fix issue having Chromium to add random 1px margin at the bottom
                               "    overflow: hidden;"     ; https://github.com/puppeteer/puppeteer/issues/2278#issuecomment-410381934
                               "    font-size: 0;"
                               "  }"
