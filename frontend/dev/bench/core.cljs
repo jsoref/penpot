@@ -6,7 +6,7 @@
 
 (enable-console-print!)
 
-;; --- Index Initialization Bechmark
+;; --- Index Initialization Benchmark
 
 (defn- bench-init-10000
   []
