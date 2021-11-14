@@ -34,7 +34,7 @@
        (mapv #(gpt/add % move-vec))))
 
 (defn move
-  "Move the shape relativelly to its current
+  "Move the shape relatively to its current
   position applying the provided delta."
   [shape {dx :x dy :y}]
   (let [dx (d/check-num dx)
