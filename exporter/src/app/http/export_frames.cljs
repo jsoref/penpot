@@ -55,8 +55,8 @@
   (let [{:keys [name file-id page-id frame-ids]} (us/conform ::handler-params params)
         token  (.get ^js cookies "auth-token")]
     (p/let [tdpath (sh/create-tmpdir! "pdfexport-")
-            data (-> (reduce (fn [promis frame-id]
-                               (p/then promis (partial export-frame tdpath file-id page-id token frame-id)))
+            data (-> (reduce (fn [promise frame-id]
+                               (p/then promise (partial export-frame tdpath file-id page-id token frame-id)))
                        (p/future [])
                        frame-ids)
                      (p/then  (partial join-files tdpath file-id))
