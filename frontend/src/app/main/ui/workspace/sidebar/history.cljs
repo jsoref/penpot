@@ -21,7 +21,7 @@
   (l/derived :workspace-undo st/state))
 
 (defn get-object
-  "Searchs for a shape inside the objects list or inside the undo history"
+  "Searches for a shape inside the objects list or inside the undo history"
   [id entries objects]
   (let [search-deleted-shape
         (fn [id entries]
