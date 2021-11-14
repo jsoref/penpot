@@ -1468,7 +1468,7 @@ msgid "modals.leave-and-reassign.promote-and-leave"
 msgstr "Promote and leave"
 
 #: src/app/main/ui/dashboard/sidebar.cljs
-msgid "modals.leave-and-reassign.select-memeber-to-promote"
+msgid "modals.leave-and-reassign.select-member-to-promote"
 msgstr "Select a member to promote"
 
 #: src/app/main/ui/dashboard/sidebar.cljs
