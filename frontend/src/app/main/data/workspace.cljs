@@ -1645,7 +1645,7 @@
                    (not= root-file-id (:current-file-id state))
                    (nil? (get-in state [:workspace-libraries root-file-id])))))
 
-          ;; Procceed with the standard shape paste procediment.
+          ;; Proceed with the standard shape paste proceediment.
           (do-paste [it state mouse-pos media]
             (let [page-objects  (wsh/lookup-page-objects state)
                   media-idx     (d/index-by :prev-id media)
