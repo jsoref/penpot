@@ -206,7 +206,7 @@
 
 (defn login-from-register
   "Event used mainly for mark current session as logged-in in after the
-  user sucessfully registered using third party auth provider (in this
+  user successfully registered using third party auth provider (in this
   case we dont need to verify the email)."
   []
   (ptk/reify ::login-from-register

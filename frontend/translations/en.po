@@ -98,7 +98,7 @@ msgid "auth.notifications.invalid-token-error"
 msgstr "The recovery token is invalid."
 
 #: src/app/main/ui/auth/recovery.cljs
-msgid "auth.notifications.password-changed-succesfully"
+msgid "auth.notifications.password-changed-successfully"
 msgstr "Password successfully changed"
 
 #: src/app/main/ui/auth/recovery_request.cljs
@@ -111,7 +111,7 @@ msgstr "Password recovery link sent to your inbox."
 
 #: src/app/main/ui/auth/verify_token.cljs
 msgid "auth.notifications.team-invitation-accepted"
-msgstr "Joined the team succesfully"
+msgstr "Joined the team successfully"
 
 #: src/app/main/ui/auth/register.cljs, src/app/main/ui/auth/login.cljs
 msgid "auth.password"
@@ -338,7 +338,7 @@ msgid "dashboard.import.import-error"
 msgstr "There was a problem importing the file. The file wasn't imported."
 
 msgid "dashboard.import.import-message"
-msgstr "%s files have been imported succesfully."
+msgstr "%s files have been imported successfully."
 
 msgid "dashboard.import.progress.process-colors"
 msgstr "Processing colors"
