@@ -180,7 +180,7 @@
     ;; it because this is not a normal case. All notifications should
     ;; come with profile identity.
     (nil? profile-id)
-    (l/warn :msg "a notification without identity recevied from AWS"
+    (l/warn :msg "a notification without identity received from AWS"
             :report (pr-str report))
 
     (= "bounce" type)
