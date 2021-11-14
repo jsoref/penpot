@@ -150,7 +150,7 @@
 (defmethod ig/init-key ::collector
   [_ cfg]
   (when (contains? cf/flags :audit-log)
-    (l/info :msg "intializing audit log collector")
+    (l/info :msg "initializing audit log collector")
     (let [input  (a/chan 512 event-xform)
           buffer (aa/batch input {:max-batch-size 100
                                   :max-batch-age (* 10 1000) ; 10s
